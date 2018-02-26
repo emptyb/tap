@@ -1,0 +1,542 @@
+<!doctype html>
+<html class="no-js" lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>{{title}}</title>
+        <meta content="" name="description">
+        <meta content="" name="keywords">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700,900" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="stylesheets/style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.mcustomscrollbar/3.0.6/jquery.mCustomScrollbar.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
+        </script>
+    </head>
+    <body class="short">
+        <div class="layout">
+            <header class="header">
+                <div class="header__logo">
+                    <a href="#">
+                        <img src="images/general/logoBig.png" alt="logo" class="logo">
+                        <img src="images/general/logo.png" alt="logo" class="logo--sm">
+                    </a>
+                </div>
+                <div class="header__left">
+                    <span class="header__title">
+                        Dynamic reports
+                    </span>
+                </div>
+                <nav class="header__right">
+                    <div class="notification">
+                        <a href="#" class="notification__link">
+                            <i class="fas fa-bell notification__item"></i>
+                            <span class="notification__counter">16</span>
+                        </a>
+                    </div>
+                    <div class="user">
+                        <div class="user__img">
+                            <img src="images/content/avatar.png" alt="avatar">
+                        </div>
+                        <div class="user__info">
+                            <span class="user__name">Johnie Pie</span>
+                            <span class="user__position">Admin</span>
+                        </div>
+                        <div href="#" class="user__arrow">
+                            <i class="fas fa-angle-down"></i>
+                        </div>
+                    </div>
+                </nav>
+                <div class="sidebar-btn">
+                    <img src="images/general/burger.png" alt="burger-menu">
+                </div>
+            </header>
+            <main class="main">
+                <div class="sidebar">
+                    <div class="rank-stats rank-stats--sm">
+                        <div class="rank-stats__item">
+                            <div class="rank-stats__title">time</div>
+                            <div class="rank-stats__counter">11:12</div>
+                            <div class="rank-stats__arrow">
+                            </div>
+                        </div>
+                        <div class="rank-stats__item">
+                            <div class="rank-stats__title">A. off.</div>
+                            <div class="rank-stats__counter">245</div>
+                            <div class="rank-stats__arrow arrow-down">
+                                <i class="fas fa-angle-down"></i>
+                            </div>
+                        </div>
+                        <div class="rank-stats__item">
+                            <div class="rank-stats__title">A. adv.</div>
+                            <div class="rank-stats__counter">64</div>
+                            <div class="rank-stats__arrow arrow-up">
+                                <i class="fas fa-angle-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rank-stats rank-stats--expanded">
+                        <div class="rank-stats__item">
+                            <div class="rank-stats__block">
+                                <div class="rank-stats__title">time gtm+3</div>
+                                <div class="rank-stats__counter">11:12</div>
+                            </div>
+                            <div class="rank-stats__block">
+                                <div class="rank-stats__title">today total</div>
+                                <div class="rank-stats__counter">$4500</div>
+                            </div>
+                        </div>
+                        <div class="rank-stats__item">
+                            <div class="rank-stats__block">
+                                <div class="rank-stats__title">Act. offers</div>
+                                <div class="rank-stats__counter">245
+                                    <span class="counter--sm red">-18%</span>
+                                </div>
+                            </div>
+                            <div class="rank-stats__block">
+                                <div class="rank-stats__title">fet. offers</div>
+                                <div class="rank-stats__counter">102
+                                    <span class="counter--sm green">+14%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="rank-stats__item">
+                            <div class="rank-stats__block">
+                                <div class="rank-stats__title">Act. adverts</div>
+                                <div class="rank-stats__counter">64
+                                    <span class="counter--sm green">+12%</span>
+                                </div>
+                            </div>
+                            <div class="rank-stats__block">
+                                <div class="rank-stats__title">active pubs</div>
+                                <div class="rank-stats__counter">42
+                                    <span class="counter--sm green">+22%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <nav class="sidebar__menu">
+                        <ul class="admin-menu">
+                            <li class="admin-menu__item">
+                                <a href="#" class="admin-menu__link">
+                                    <span class="admin-menu__img">
+                                        <i class="fas fa-calendar-alt"></i>
+                                    </span>
+                                    <span class="admin-menu__text">Dashboard</span>
+                                </a>
+                            </li>
+                            <li class="admin-menu__item">
+                                <a href="#" class="admin-menu__link">
+                                    <span class="admin-menu__img">
+                                        <i class="fas fa-chart-line"></i>
+                                    </span>
+                                    <span class="admin-menu__text">Campaigns</span>
+                                </a>
+                            </li>
+                            <li class="admin-menu__item">
+                                <a href="#" class="admin-menu__link" data-submenu="offers">
+                                    <span class="admin-menu__img">
+                                        <i class="fas fa-dollar-sign"></i>
+                                    </span>
+                                    <span class="admin-menu__text">Offers</span>
+                                    <span class="admin-menu__badge bg--mint">125</span>
+                                    <span class="admin-menu__arrow ">
+                                        <i class="fas fa-angle-right"></i>
+                                    </span>
+                                </a>
+                                <ul class="sub-menu">
+                                    <li class="sub-menu__item">Dynamic Reports</li>
+                                    <li class="sub-menu__item">Conversation Reports</li>
+                                    <li class="sub-menu__item">Caps Usage</li>
+                                    <li class="sub-menu__item">Server logs</li>
+                                    <li class="sub-menu__item">Manager Logs</li>
+                                    <li class="sub-menu__item">Referrals</li>
+                                </ul>
+                            </li>
+                            <li class="admin-menu__item">
+                                <a href="#" class="admin-menu__link">
+                                    <span class="admin-menu__img">
+                                        <i class="fas fa-check"></i>
+                                    </span>
+                                    <span class="admin-menu__text">Approvals</span>
+                                </a>
+                            </li>
+                            <li class="admin-menu__item">
+                                <a class="admin-menu__link" data-submenu="reports" href="#">
+                                    <span class="admin-menu__img">
+                                        <i class="fas fa-file"></i>
+                                    </span>
+                                    <span class="admin-menu__text">Reports</span>
+                                    <span class="admin-menu__arrow ">
+                                        <i class="fas fa-angle-right"></i>
+                                    </span>
+                                </a>
+                                <ul class="sub-menu">
+                                    <li class="sub-menu__item">Dynamic Reports</li>
+                                    <li class="sub-menu__item">Conversation Reports</li>
+                                    <li class="sub-menu__item">Caps Usage</li>
+                                    <li class="sub-menu__item">Server logs</li>
+                                    <li class="sub-menu__item">Manager Logs</li>
+                                    <li class="sub-menu__item">Referrals</li>
+                                </ul>
+                            </li>
+                            <li class="admin-menu__separator"></li>
+                            <li class="admin-menu__item">
+                                <a href="#" class="admin-menu__link">
+                                    <span class="admin-menu__img">
+                                        <i class="fas fa-chevron-circle-up"></i>
+                                    </span>
+                                    <span class="admin-menu__text">Advertisers</span>
+                                </a>
+                            </li>
+                            <li class="admin-menu__item">
+                                <a href="#" class="admin-menu__link">
+                                    <span class="admin-menu__img">
+                                        <i class="fas fa-chevron-circle-down"></i>
+                                    </span>
+                                    <span class="admin-menu__text">Publishers</span>
+                                </a>
+                            </li>
+                            <li class="admin-menu__separator"></li>
+                            <li class="admin-menu__item">
+                                <a href="#" class="admin-menu__link">
+                                    <span class="admin-menu__img">
+                                        <i class="fas fa-chart-bar"></i>
+                                    </span>
+                                    <span class="admin-menu__text">Analytics</span>
+                                </a>
+                            </li>
+                            <li class="admin-menu__item">
+                                <a href="#" class="admin-menu__link">
+                                    <span class="admin-menu__img">
+                                        <i class="fas fa-wrench"></i>
+                                    </span>
+                                    <span class="admin-menu__text">Tools</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="submenu">
+                            <ul class="sub-menu sub-menu--short" id="reports">
+                                <li class="sub-menu__item sub-menu__item--title">Reports</li>
+                                <li class="sub-menu__item">Dynamic Reports</li>
+                                <li class="sub-menu__item">Conversation Reports</li>
+                                <li class="sub-menu__item">Caps Usage</li>
+                                <li class="sub-menu__item">Server logs</li>
+                                <li class="sub-menu__item">Manager Logs</li>
+                                <li class="sub-menu__item">Referrals</li>
+                            </ul>
+                            <ul class="sub-menu sub-menu--short" id="offers">
+                                <li class="sub-menu__item sub-menu__item--title">Offers</li>
+                                <li class="sub-menu__item">Dynamic Reports</li>
+                                <li class="sub-menu__item">Conversation Reports</li>
+                                <li class="sub-menu__item">Caps Usage</li>
+                                <li class="sub-menu__item">Server logs</li>
+                                <li class="sub-menu__item">Manager Logs</li>
+                                <li class="sub-menu__item">Referrals</li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+                <div class="content">
+                    <div class="content-toolbar">
+                        <div class="content-toolbar__block">
+                            <ul class="nav-tabs">
+                                <li class="nav-tabs__item active">
+                                    <a href="#" class="nav-tabs__link">Advertisers</a>
+                                </li>
+                                <li class="nav-tabs__item">
+                                    <a href="#" class="nav-tabs__link">Publishers</a>
+                                </li>
+                                <li class="nav-tabs__item">
+                                    <a href="#" class="nav-tabs__link">Offers</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="content-toolbar__block">
+                            <div class="content-toolbar__item-left">
+                                <p class="filter-date-text">Show:
+                                    <a href="#" class="filter-date">3 month
+                                        <span class="filter-date__btn">
+                                            <i class="fas fa-angle-down"></i>
+                                        </span>
+                                    </a>
+                                </p>
+                            </div>
+                            <div class="content-toolbar__item-right">
+                                <a href="#" class="filter-btn"> Filter
+                                    <i class="fas fa-signal"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-toolbar">
+                        <div class="content-toolbar__block">
+                            <a href="#" class="btn btn--sm btn--primary"> Daily stat</a>
+                            <a href="#" class="btn btn--sm btn--primary"> Sales & Profir</a>
+                            <a href="#" class="btn btn--sm btn--primary"> Offer / Advert</a>
+                            <a href="#" class="btn btn--sm btn--primary"> Sales & Revenue</a>
+                        </div>
+                    </div>
+                    <div class="filter-menu">
+                        <div class="filter-menu__header">
+                            <div class="filter-menu__block">
+                                <div class="filter-menu__dropdown">
+                                    <span>
+                                        <b>UTC +12</b> Pacific/Wake </span>
+                                    <i class="fas fa-angle-down"></i>
+                                </div>
+                            </div>
+                            <div class="filter-menu__block">
+                                <span>Filter</span>
+                                <a href="#" class="filter-menu__close-btn ">
+                                    <i class="fas fa-times"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="filter-menu__main">
+                            <p>Breakdown by</p>
+                            <ul class="checkbox-list">
+                                <li class="checkbox-list__item">
+                                    <span class="checkbox fas">
+                                        <input type="checkbox" id="check" name="check" />
+                                        <label for="check">Checkbox</label>
+                                    </span>
+                                </li>
+                                <li class="checkbox-list__item">
+                                    <span class="checkbox fas">
+                                        <input type="checkbox" id="check1" name="check1" />
+                                        <label for="check1">Checkbox</label>
+                                    </span>
+                                </li>
+                                <li class="checkbox-list__item">
+                                    <span class="checkbox fas">
+                                        <input type="checkbox" id="check2" name="check2" />
+                                        <label for="check2">Checkbox</label>
+                                    </span>
+                                </li>
+                                <li class="checkbox-list__item">
+                                    <span class="checkbox fas">
+                                        <input type="checkbox" id="check3" name="check3" />
+                                        <label for="check3">Checkbox</label>
+                                    </span>
+                                </li>
+                                <li class="checkbox-list__item">
+                                    <span class="checkbox fas">
+                                        <input type="checkbox" id="check4" name="check4" />
+                                        <label for="check4">Checkbox</label>
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="filter-menu__bottom">
+                            <button type="button" class="btn secondary-bg">Apply</button>
+                        </div>
+                    </div>
+                    <div class="table-wrapper">
+                        <table class="table">
+                            <thead class="table__head">
+                                <tr>
+                                    <th scope="col">
+                                        <span class="table__title">Id</span>
+                                        <span class="table__title">Offer</span>
+                                    </th>
+                                    <th scope="col">
+                                        <span class="table__title">Country</span>
+                                    </th>
+                                    <th scope="col">
+                                        <span class="table__title">Adv</span>
+                                        <span class="table__title">Name</span>
+                                    </th>
+                                    <th scope="col">
+                                        <span class="table__title">Pub.</span>
+                                        <span class="table__title">Name</span>
+                                    </th>
+                                    <th scope="col">
+                                        <span class="table__title">Clicks</span>
+                                    </th>
+                                    <th scope="col">
+                                        <span class="table__title">Profit</span>
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">
+                                        <span class="table__title">225074</span>
+                                    </th>
+                                    <td>
+                                        <span class="table__item table__item--bold">Taiwan</span>
+                                    </td>
+                                    <td>
+                                        <span class="table__item">AppThis</span>
+                                    </td>
+                                    <td>
+                                        <span class="table__item">GreenApp</span>
+                                    </td>
+                                    <td>
+                                        <span class="table__item table__item--bold">4</span>
+                                    </td>
+                                    <td>
+                                        <span class="table__item table__item--bold">125</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <span class="table__title">225074</span>
+                                    </th>
+                                    <td>
+                                        <span class="table__item table__item--bold">Taiwan</span>
+                                    </td>
+                                    <td>
+                                        <span class="table__item">AppThis</span>
+                                    </td>
+                                    <td>
+                                        <span class="table__item">GreenApp</span>
+                                    </td>
+                                    <td>
+                                        <span class="table__item table__item--bold">4</span>
+                                    </td>
+                                    <td>
+                                        <span class="table__item table__item--bold">125</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <span class="table__title">225074</span>
+                                    </th>
+                                    <td>
+                                        <span class="table__item table__item--bold">Taiwan</span>
+                                    </td>
+                                    <td>
+                                        <span class="table__item">AppThis</span>
+                                    </td>
+                                    <td>
+                                        <span class="table__item">GreenApp</span>
+                                    </td>
+                                    <td>
+                                        <span class="table__item table__item--bold">4</span>
+                                    </td>
+                                    <td>
+                                        <span class="table__item table__item--bold">125</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <span class="table__title">225074</span>
+                                    </th>
+                                    <td>
+                                        <span class="table__item table__item--bold">Taiwan</span>
+                                    </td>
+                                    <td>
+                                        <span class="table__item">AppThis</span>
+                                    </td>
+                                    <td>
+                                        <span class="table__item">GreenApp</span>
+                                    </td>
+                                    <td>
+                                        <span class="table__item table__item--bold">4</span>
+                                    </td>
+                                    <td>
+                                        <span class="table__item table__item--bold">125</span>
+                                    </td>
+                                </tr>
+                            </tbody>
+                            <tbody>
+                                <tr>
+                                    <th scope="row" class="relative">
+                                        <span class="table__title">
+                                            <p class="table__title-day">Yesterday</p>
+                                        </span>
+                                    </th>
+                                    <td>
+                                        <span class="table__item"></span>
+                                    </td>
+                                    <td>
+                                        <span class="table__item"></span>
+                                    </td>
+                                    <td>
+                                        <span class="table__item"></span>
+                                    </td>
+                                    <td>
+                                        <span class="table__item "></span>
+                                    </td>
+                                    <td>
+                                        <span class="table__item "></span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <span class="table__title">225074</span>
+                                    </th>
+                                    <td>
+                                        <span class="table__item table__item--bold">Taiwan</span>
+                                    </td>
+                                    <td>
+                                        <span class="table__item">AppThis</span>
+                                    </td>
+                                    <td>
+                                        <span class="table__item">GreenApp</span>
+                                    </td>
+                                    <td>
+                                        <span class="table__item table__item--bold">4</span>
+                                    </td>
+                                    <td>
+                                        <span class="table__item table__item--bold">125</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <span class="table__title">225074</span>
+                                    </th>
+                                    <td>
+                                        <span class="table__item table__item--bold">Taiwan</span>
+                                    </td>
+                                    <td>
+                                        <span class="table__item">AppThis</span>
+                                    </td>
+                                    <td>
+                                        <span class="table__item">GreenApp</span>
+                                    </td>
+                                    <td>
+                                        <span class="table__item table__item--bold">4</span>
+                                    </td>
+                                    <td>
+                                        <span class="table__item table__item--bold">125</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <span class="table__title">225074</span>
+                                    </th>
+                                    <td>
+                                        <span class="table__item table__item--bold">Taiwan</span>
+                                    </td>
+                                    <td>
+                                        <span class="table__item">AppThis</span>
+                                    </td>
+                                    <td>
+                                        <span class="table__item">GreenApp</span>
+                                    </td>
+                                    <td>
+                                        <span class="table__item table__item--bold">4</span>
+                                    </td>
+                                    <td>
+                                        <span class="table__item table__item--bold">125</span>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </main>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/floatthead/2.1.1/jquery.floatThead.min.js">
+        </script>
+        <script src="https://cdn.jsdelivr.net/jquery.mcustomscrollbar/3.0.6/jquery.mCustomScrollbar.concat.min.js">
+        </script>
+        <script src="js/bundle.js">
+        </script>
+    </body>
+</html>
