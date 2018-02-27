@@ -419,6 +419,10 @@ img {
   background-color: #02c3c8 !important;
 }
 
+.mCSB_scrollTools {
+  right: 14px !important;
+}
+
 .layout {
   display: flex;
   flex-direction: column;
