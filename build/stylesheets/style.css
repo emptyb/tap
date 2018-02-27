@@ -348,6 +348,7 @@ img {
 
 .expanded .content {
   margin-left: 240px;
+  width: calc( 100% - 242px);
   transition: all 0.4s ease-in-out;
 }
 
@@ -419,10 +420,6 @@ img {
   background-color: #02c3c8 !important;
 }
 
-.mCSB_scrollTools {
-  right: 14px !important;
-}
-
 .layout {
   display: flex;
   flex-direction: column;
@@ -431,9 +428,9 @@ img {
 }
 
 .content {
-  width: 100%;
+  position: fixed;
+  width: calc( 100% - 80px);
   height: 100%;
-  max-height: 600px;
   margin-left: 80px;
   background: #eeeeee;
   margin-top: 65px;
